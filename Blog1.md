@@ -14,6 +14,7 @@ To do this I've thresholded the image for the redline to show up. After this, I'
 After all this, the only thing left was to set the Kp and Kd constants to the desired values, this values are obtained experimentally. Depending on how the error is computed this constants will need to be positive or negative for the car to steer in the right direction.
 
 This implementation is minimal but I've managed to complete a lap in approximately 36 secs. Here you have a short and accelerated video of my car implementation.
+
 [![](http://img.youtube.com/vi/BIow3qinfL0/0.jpg)](http://www.youtube.com/watch?v=BIow3qinfL0 "Blog 1: Follow Line - JdeRobot")
 
 The main disadvantage of this approach is that the car doesn't goes over the line on the turns. The next step for solving this issue is to detect whether we are on a straight line or a turn, and create two different controllers for each state.
