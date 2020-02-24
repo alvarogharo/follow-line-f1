@@ -19,7 +19,7 @@ This implementation is minimal but I've managed to complete a lap in approximate
 
 [![](http://img.youtube.com/vi/BIow3qinfL0/0.jpg)](http://www.youtube.com/watch?v=BIow3qinfL0 "Blog 1: Follow Line - JdeRobot")
 
-The main disadvantage of this approach is that the car doesn't goes over the line on the turns. The next step for solving this issue is to detect whether we are on a straight line or a turn, and create two different controllers for each state.
+The main disadvantages of this approach are that the car doesn't goes over the line on the turns and if the line disapears from the image, the car will not now where to go. The next steps for solving this issues are to detect whether we are on a straight line or a turn, create two different controllers for each state and add a new state for finding the redline.
 
 With this simple implementation we already have quite a fast car, but we have to continue working on its follow-line skills, meanwhile, I encourage you to try it by yourself. 
 
