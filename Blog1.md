@@ -7,6 +7,8 @@ On this follow line project we have a simple communication interface with the F1
 
 The first way to tackle this problem is implementing a [PID controller](https://www.youtube.com/watch?v=wkfEZmsQqiA) to control the angular speed for our car to be able to turn. To simplify it even more I will only implement the PD part, because right now the integral is not mandatory for good results.
 
+![](https://university.listenlights.com/wp-content/uploads/2017/11/cover-page-3.png)
+
 The error fed to the PD controller is going to be measured as the distance between the current position of the redline in the horizon and the "optimal" position which is the center of the screen.
 
 To do this I've thresholded the image for the redline to show up. After this, I've set the horizon height empirically at ~260px and created a height window to improve the robustness of the system. With this, I've computed the x position in pixels for the redline points inside the window, got the median of this positions, round the value and used it to calculate the error with the center of the screen.
