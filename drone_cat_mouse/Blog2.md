@@ -14,7 +14,10 @@ But, what happens if there is no blob in any camera?. Well, we need to create a 
 For this state one of the simplest approach, is to make the drone go up and rotate slowly, this will cover some space of the environment but some other path could work better.
 
 Take a look to the results of this approach:
-[![](http://img.youtube.com/vi/BIow3qinfL0/0.jpg)](http://www.youtube.com/watch?v=BIow3qinfL0 "Blog 1: Follow Line - JdeRobot")
+[![](http://img.youtube.com/vi/88LXdC005Rk/0.jpg)](https://www.youtube.com/watch?v=88LXdC005Rk "Blog 2: Drone cat mouse 2 - JdeRobot")
+
+The search state:
+[![](http://img.youtube.com/vi/WhprPkKQkUc/0.jpg)](https://www.youtube.com/watch?v=WhprPkKQkUc "Blog 2: Drone cat mouse 3 - JdeRobot")
 
 Thank you for tunning in. See you in the next one!
 
