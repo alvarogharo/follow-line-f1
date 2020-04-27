@@ -19,7 +19,7 @@ For the x axis in this case we will need to get the area of the red drone in our
 
 Of course for each of this 3 dimensions we will need the constants "P" and "D" to tune the drone behaviour.
 
-Here you have some example of the current state of the controller working:[![](http://img.youtube.com/vi/BIow3qinfL0/0.jpg)](http://www.youtube.com/watch?v=BIow3qinfL0 "Blog 1: Follow Line - JdeRobot")
+Here you have some example of the current state of the controller working:[![](http://img.youtube.com/vi/3nqwA3SShPg/0.jpg)](https://www.youtube.com/watch?v=3nqwA3SShPg "Blog 1: Follow Line - JdeRobot")
 
 NOTE: As I said before the y axis velocity value can be changed to the rotation in z axis. Applying this velocity as rotation could give more robust results.
 
