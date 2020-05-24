@@ -25,12 +25,12 @@ For finishing this long exercise the only thing left is to plot the 3D point, to
 
 Example without the 3D plot call:
 
-[![](http://img.youtube.com/vi/h4p6nojExio/0.jpg)](https://www.youtube.com/watch?v=h4p6nojExio "Blog 2: Follow Line - JdeRobot")
+[![](http://img.youtube.com/vi/h4p6nojExio/0.jpg)](https://www.youtube.com/watch?v=h4p6nojExio "Blog 1: 3D reconstruction - JdeRobot")
 
 
 Example withthe 3D plot call:
 
-[![](http://img.youtube.com/vi/MktGeuh9P_8/0.jpg)](https://www.youtube.com/watch?v=MktGeuh9P_8 "Blog 2: Follow Line - JdeRobot")
+[![](http://img.youtube.com/vi/MktGeuh9P_8/0.jpg)](https://www.youtube.com/watch?v=MktGeuh9P_8 "Blog 1: 3D reconstruction")
 
 As you can see the second video is super slow, so don't worry if the plotting is very slow it is normal.
 
